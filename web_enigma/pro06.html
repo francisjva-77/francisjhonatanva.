@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ejemplo 06</title>
+</head>
+<body>
+    <script>
+        let totalCuenta = parseFloat(prompt("Monto total de la cuenta:"));
+        let personas = Number(prompt("Cantidad de personas:"));
+        let pagoPorPersona = totalCuenta / personas;
+
+        document.write("Bienvenidos al curso de JAVASCRIPT<br>");
+        document.write("-----------------------------------<br>");
+        document.write("Cada persona debe pagar: S/ " + pagoPorPersona.toFixed(2) + "<br>");
+        document.write("-----------------------------------<br>");
+    </script>
+</body>
+</html>

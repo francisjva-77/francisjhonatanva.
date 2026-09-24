@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ejemplo 09</title>
+</head>
+<body>
+    <script>
+        let soles = Number(prompt("Monto en soles:"));
+        let tipoCambio = parseFloat(prompt("Tipo de cambio:"));
+        let dolares = soles / tipoCambio;
+
+        document.write("Bienvenidos al curso de JAVASCRIPT<br>");
+        document.write("-----------------------------------<br>");
+        document.write("Equivale a: US$ " + dolares.toFixed(2) + "<br>");
+        document.write("-----------------------------------<br>");
+    </script>
+</body>
+</html>

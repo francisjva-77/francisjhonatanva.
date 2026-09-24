@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ejemplo 02</title>
+</head>
+<body>
+    <script>
+        let precioCuaderno = parseFloat(prompt("Precio del cuaderno:"));
+        let cantCuadernos = Number(prompt("Cantidad de cuadernos:"));
+        let precioLapicero = parseFloat(prompt("Precio del lapicero:"));
+        let cantLapiceros = Number(prompt("Cantidad de lapiceros:"));
+
+        let total = (precioCuaderno * cantCuadernos) + (precioLapicero * cantLapiceros);
+
+        document.write("Bienvenidos al curso de JAVASCRIPT<br>");
+        document.write("-----------------------------------<br>");
+        document.write("Total de la compra: S/ " + total.toFixed(2) + "<br>");
+        document.write("-----------------------------------<br>");
+    </script>
+</body>
+</html>

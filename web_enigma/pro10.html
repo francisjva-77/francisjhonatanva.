@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ejemplo 10</title>
+</head>
+<body>
+    <script>
+        let dias = Number(prompt("Días de viaje:"));
+        let alimentacion = parseFloat(prompt("Gasto diario en alimentación:"));
+        let transporte = parseFloat(prompt("Gasto diario en transporte:"));
+        let alojamiento = parseFloat(prompt("Gasto diario en alojamiento:"));
+
+        let totalAlimentacion = alimentacion * dias;
+        let totalTransporte = transporte * dias;
+        let totalAlojamiento = alojamiento * dias;
+        let presupuestoTotal = totalAlimentacion + totalTransporte + totalAlojamiento;
+
+        document.write("Bienvenidos al curso de JAVASCRIPT<br>");
+        document.write("-----------------------------------<br>");
+        document.write("Gasto Total Alimentación: S/ " + totalAlimentacion.toFixed(2) + "<br>");
+        document.write("Gasto Total Transporte: S/ " + totalTransporte.toFixed(2) + "<br>");
+        document.write("Gasto Total Alojamiento: S/ " + totalAlojamiento.toFixed(2) + "<br>");
+        document.write("💰 PRESUPUESTO TOTAL: S/ " + presupuestoTotal.toFixed(2) + "<br>");
+        document.write("-----------------------------------<br>");
+    </script>
+</body>
+</html>

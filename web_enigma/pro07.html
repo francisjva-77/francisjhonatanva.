@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ejemplo 07</title>
+</head>
+<body>
+    <script>
+        let sueldoBruto = parseFloat(prompt("Sueldo mensual bruto:"));
+        let descuento = sueldoBruto * 0.13;
+        let sueldoFinal = sueldoBruto - descuento;
+
+        document.write("Bienvenidos al curso de JAVASCRIPT<br>");
+        document.write("-----------------------------------<br>");
+        document.write("Sueldo Bruto: S/ " + sueldoBruto.toFixed(2) + "<br>");
+        document.write("Monto descontado (13%): S/ " + descuento.toFixed(2) + "<br>");
+        document.write("Sueldo Final: S/ " + sueldoFinal.toFixed(2) + "<br>");
+        document.write("-----------------------------------<br>");
+    </script>
+</body>
+</html>
